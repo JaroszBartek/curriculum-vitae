@@ -1,0 +1,12 @@
+.education__wrapper {
+  @include wrapper;
+}
+.education__school {
+@include bold;
+}
+.education__specialization {
+  @include blue;
+}
+.education__date {
+  @include date;
+}

@@ -4,66 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>CV Bartomiej Jarosz</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,700i,900" rel="stylesheet">
+  <title>CV Bartłomiej Jarosz</title>
 </head>
 <body>
-<main>
-  <h1> Bartomiej Jarosz</h1>
-  <p>"mniej znaczy więcej"</p>
-  <p>25 luty 1989</p>
-  <p> +48 732 945 553</p>
-  <p>jarosz.bartomiej89@gmail.com</p>
-  <img src="img/jarosz.jpg" alt="bartlomiej jarosz">
-
-  <section>
-   <h2>Doświadczenie</h2>
-   <h3> DE Bartomiej Jarosz </h3>
-   <p> Operator kamery, montażysta, webdesigner </p>
-   <p> 1 lipiec 2017</p>
-   <p>Produkcja filmów, filmowanie, montaż,
-      Tworzenie projektów graficznych i animacji,
-      Motion graphic,
-      Tworzenie stron internetowych opartych o system CMS WordPress,
-      SEO, Kampanie google AdWords, Facebook Ads</p>
-  <h3> Skymaster Rafał Łukawski</h3>
-  <p>Operator drona, operator kamery, montażysta</p>
-  <p>1 maj 2016 - 30 listopad 2016</p>
-  <p>Nagrywanie filmów dronem oraz lustrzanką cyfrową,
-  Montaż filmowy, tworzenie prostych animacji, motion graphic,</p>
-  <h3>BGM S. C. BOGDAN KARAŚ, MARCIN DZIADOWIEC</h3>
-  <p>Prowadzenie sklepu internetowego</p>
-  <p>1 październik 2014 - 30 kwiecień 2016</p>
-  <p>Prowadzenie sklepu internetowego opartego o WooCommerce,
-    Dodawanie i opis nowych produktów,
-    Wykonywanie fotografii produktowej mebli,
-    Obróbka zdjęć,</p>
+<main class="main-content">
+  <section class="section">
+    <div class="section__cell">
+      <h1 class="about__name"> Bartłomiej Jarosz</h1>
+      <div class="about__slogan">"Mniej znaczy więcej"</div>
+      <div class="about__info">25 luty 1989</br>
+       +48 732 945 553</br>
+      jarosz.bartlomiej89@gmail.com</div>
+    </div>
+    <div class="section__cell no-spacing">
+      <img src="img/jarosz.jpg" alt="Bartlomiej Jarosz">
+    </div>
   </section>
-  <section>
-    <h2>Wykształcenie</h2>
-    <h3>AKADEMIA GÓRNICZO – HUTNICZA IM. STANIASŁAWA STASZICA
-        W KRAKOWIE</h3>
-    <p>Geologia naftowa, studia magisterskie</p>
-    <p>1 marzec 2013 - 30 wrzesień 2014</p>
-    <h3>ZESPÓŁ SZKÓŁ PGNIG IM. WALEREGO
-        GOETLA W KRAKOWIE</h3>
-    <p>Technik Wiertnik</p>
-    <p>1 wrzesień 2010 - 30 czerwiec 2012</p>
-    <h3>AKADEMIA GÓRNICZO – HUTNICZA IM. STANIASŁAWA STASZICA
-        W KRAKOWIE</h3>
-    <p>Ochrona Środowiska, studia inżynierskie</p>
-    <p>1 październik 2008 - 31 styczeń 2013</p>
+  <section class="section">
+    <div class="section__cell black">
+      <h2 class="section__title">Doświadczenie</h2>
+    </div>
+    <div class="section__cell">
+      <div class="experience__wrapper">
+        <h3 class="experience__company"> DE Bartłomiej Jarosz </h3>
+        <div class="experience__position"> Operator drona, operator kamery, montażysta, webdesigner </div>
+        <div class="experience__date"> 1 lipiec 2017 -</div>
+        <p class="experience__duties">Produkcja filmów, filmowanie, montaż,
+            tworzenie animacji, motion graphic,
+            tworzenie stron internetowych opartych o WordPressa,
+        </p>
+      </div>
+      <div class="experience__wrapper">
+        <h3 class="experience__company"> Skymaster Rafał Łukawski</h3>
+        <div class="experience__position">Operator drona, operator kamery, montażysta</div>
+        <div class="experience__date">1 maj 2016 - 1 lipiec 2017</div>
+        <p class="experience__duties">Produkcja filmów, filmowanie, montaż,
+           tworzenie animacji, motion graphic,</p>
+      </div>
+      <div class="experience__wrapper">
+        <h3 class="experience__company">BGM S. C. Bogdan Karaś, Marcin Dziadowiec</h3>
+        <div class="experience__position">Fotograf, pracownik obsługi sklepu internetowego</div>
+        <div class="experience__date">1 październik 2014 - 30 kwiecień 2016</div>
+        <p class="experience__duties"> Wykonywanie fotografii produktowej mebli,
+          Obróbka zdjęć, prowadzenie sklepu internetowego opartego o WooCommerce,
+          dodawanie i opis nowych produktów,</p>
+      </div>
+    </div>
   </section>
-  <section>
-    <h2>Umiejętności</h2>
-    <h4>webdesign</h4>
-    <p>CSS3, HTML5, WordPress, JavaScript, jQuery, Adobe XD,</p>
-    <h4>Grafika</h4>
-    <p>Photoshop, Ilustrator, CorelDRAW,</p>
-    <h4>Prdukcja wideo i animacji</h4>
-    <p>Premiere Pro, After Effects</p>
-    <h4>Języki</h4>
-    <p>Angielski, Niemiecki</p>
+  <section class="section">
+    <div class="section__cell">
+      <h2 class="section__title">Wykształcenie</h2>
+    </div>
+    <div class="section__cell black">
+      <div class="education__wrapper">
+        <h3 class="education__school">AKADEMIA GÓRNICZO – HUTNICZA IM. STANIASŁAWA STASZICA
+          W KRAKOWIE</h3>
+        <div class="education__specialization">Geologia naftowa, studia magisterskie</div>
+        <div class="education__date">1 marzec 2013 - 30 wrzesień 2014</div>
+      </div>
+      <div class="education__wrapper">
+        <h3 class="education__school">ZESPÓŁ SZKÓŁ PGNIG IM. WALEREGO
+            GOETLA W KRAKOWIE</h3>
+        <div class="education__specialization">Technik Wiertnik</div>
+        <div class="education__date">1 wrzesień 2010 - 30 czerwiec 2012</div>
+      </div>
+      <div class="education__wrapper">
+        <h3 class="education__school">AKADEMIA GÓRNICZO – HUTNICZA IM. STANIASŁAWA STASZICA
+            W KRAKOWIE</h3>
+        <div class="education__specialization">Ochrona Środowiska, studia inżynierskie</div>
+        <div class="education__date">1 październik 2008 - 31 styczeń 2013</div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section__cell black">
+      <h2 class="section__title">Umiejętności</h2>
+    </div>
+    <div class="section__cell">
+      <h4 class="skills__category">Technologie</h4>
+      <p class="skills__list">CSS3 (SCSS), HTML5, WordPress, JavaScript, Git</p>
+      <h4 class="skills__category">Grafika/Projektowanie</h4>
+      <p class="skills__list">Photoshop, Ilustrator, CorelDRAW, Adobe XD</p>
+      <h4 class="skills__category">Prdukcja wideo i animacji</h4>
+      <p class="skills__list">Premiere Pro, After Effects</p>
+      <h4 class="skills__category">Języki</h4>
+      <p class="skills__list">Angielski, Niemiecki</p>
+    </div>
   </section>
 </main>
 </body>

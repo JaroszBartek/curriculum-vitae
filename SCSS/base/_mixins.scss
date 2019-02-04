@@ -1,0 +1,22 @@
+@mixin wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: right;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+@mixin bold {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 10px 0;
+}
+@mixin blue {
+  color: #057dca;
+  font-weight: 500;
+  margin: 5px 0;
+}
+@mixin date {
+  font-style: italic;
+}

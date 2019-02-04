@@ -1,0 +1,16 @@
+.experience__wrapper {
+  @include wrapper;
+}
+.experience__company {
+  @include bold;
+}
+.experience__position {
+  @include blue;
+}
+.experience__date {
+  @include date;
+}
+.experience__duties {
+  font-size: 1.4rem;
+  margin: 5px 0;
+}

@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.5;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.main-content{
+  max-width: 1000px;
+  margin:auto;
+  border: 1px solid red;
+}
+.section {
+  max-width: 100%;
+  display:flex;
+}
+.section__cell {
+  padding: 10px;
+  width: 50%;
+  height: 641.25px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.black {
+  background-color: #000000;
+  color: #ffffff;
+}
+.no-spacing {
+  padding: 0;
+  margin: 0;
+}
+.section__title {
+  max-width: 350px;
+  margin:auto;
+  font-size: 8rem;
+  font-weight: 400;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  word-break:break-all;
+  &::after {
+    content: "";
+    display: inline-block;
+    position:relative;
+    background-color: #000000;
+    width: 80px;
+    height: 10px;
+    margin: 22px;
+  }
+}
+.black .section__title::after {
+  background-color: #ffffff;
+}
