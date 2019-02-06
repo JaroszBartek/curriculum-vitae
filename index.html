@@ -9,6 +9,7 @@
   <title>CV Bartłomiej Jarosz</title>
 </head>
 <body>
+<div class="pointer"> </div>
 <main class="main-content">
   <section class="section">
     <div class="section__cell">
@@ -18,8 +19,8 @@
        +48 732 945 553</br>
       jarosz.bartlomiej89@gmail.com</div>
     </div>
-    <div class="section__cell no-spacing">
-      <img src="img/jarosz.jpg" alt="Bartlomiej Jarosz">
+    <div class="section__cell portrait">
+
     </div>
   </section>
   <section class="section">
@@ -91,8 +92,16 @@
       <p class="skills__list">Premiere Pro, After Effects</p>
       <h4 class="skills__category">Języki</h4>
       <p class="skills__list">Angielski, Niemiecki</p>
+      <h4 class="skills__category">W trakcie nauki</h4>
+      <p class="skills__list">React</p>
     </div>
   </section>
 </main>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+ $(document).mousemove(function(e){
+  $('.pointer').css({left:e.pageX, top:e.pageY})
+})
+</script>
 </body>
 </html>

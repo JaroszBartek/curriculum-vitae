@@ -1,3 +1,6 @@
+@mixin sw700 {
+  @media (min-width: 700px) { @content; }
+}
 @mixin wrapper {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  background-color: #9c9c9c;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -15,15 +16,19 @@ img{
 .main-content{
   max-width: 1000px;
   margin:auto;
-  border: 1px solid red;
+  background-color: #ffffff;
 }
 .section {
   max-width: 100%;
   display:flex;
+  flex-direction: column;
+  @include sw700 {
+      flex-direction: row;
+    }
 }
 .section__cell {
   padding: 10px;
-  width: 50%;
+  width: 100%;
   height: 641.25px;
   flex-grow: 1;
   display: flex;
@@ -31,15 +36,15 @@ img{
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
+  @include sw700 {
+    width: 50%;
+  }
 }
 .black {
   background-color: #000000;
   color: #ffffff;
 }
-.no-spacing {
-  padding: 0;
-  margin: 0;
-}
+
 .section__title {
   max-width: 350px;
   margin:auto;
@@ -60,4 +65,17 @@ img{
 }
 .black .section__title::after {
   background-color: #ffffff;
+}
+.pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: 0.1s;
+  mix-blend-mode: difference;
 }
