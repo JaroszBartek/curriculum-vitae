@@ -66,16 +66,3 @@ img{
 .black .section__title::after {
   background-color: #ffffff;
 }
-.pointer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: 0.1s;
-  mix-blend-mode: difference;
-}
