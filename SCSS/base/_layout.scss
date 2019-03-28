@@ -26,18 +26,20 @@ img{
       flex-direction: row;
     }
 }
-.section__cell {
+.section__box {
   padding: 10px;
   width: 100%;
-  height: 641.25px;
+  height: 680px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
+  border-bottom: 1px solid #e2e2e2;
   @include sw700 {
     width: 50%;
+    border-bottom: none;
   }
 }
 .black {
